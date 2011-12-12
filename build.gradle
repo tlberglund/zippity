@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+apply plugin: 'zippity'
+
+monkey = [
+  emotion: 'angry',
+  species: 'howler',
+  world: 'new'
+]
+
+task wrapper(type: Wrapper) { 
+  gradleVersion = '1.0-milestone-6'
+}
